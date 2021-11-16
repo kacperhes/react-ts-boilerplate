@@ -1,8 +1,8 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { ReactElement } from "react";
+import logo from "./icons/logo.svg";
+import "./styles/App.css";
 
-function App() {
+function App(): ReactElement {
   return (
     <div className="App">
       <header className="App-header">
